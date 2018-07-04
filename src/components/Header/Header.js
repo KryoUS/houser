@@ -1,8 +1,14 @@
 import React from "react";
+import {Link} from 'react-router-dom';
+import './header.css';
+import logo from '../../logo.png'
 
 function Header() {
     return (
-        <div>Header</div>
+        <div className="header">
+            <Link to ="/"><img src={logo} className="app-logo" alt="logo"></img></Link>
+            <Link to ="/" style={{textDecoration: 'none'}}><h1>Houser</h1></Link>
+        </div>
     )
 }
 

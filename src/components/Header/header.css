@@ -1,0 +1,16 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #519872;
+    height: 70px;
+}
+
+.app-logo {
+    height: 28px;
+    margin: 10px;
+}
+
+h1 {
+    color: white;
+}

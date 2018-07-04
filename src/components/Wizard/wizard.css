@@ -1,0 +1,26 @@
+.wizard-head {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.wizard-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cancel {
+    margin: 20px;
+    padding: 10px;
+    background-color: #fec2c2;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.cancel:hover {
+    background-color: #926f6f;
+    color: white;
+    cursor: pointer;
+}
