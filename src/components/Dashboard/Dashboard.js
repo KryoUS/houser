@@ -16,7 +16,7 @@ export default class Dashboard extends Component {
             <div className="dashboard">
                 <div className="dashboard-head">
                     <h2>Dashboard</h2>
-                    <Link to ='/wizard' style={{textDecoration: 'none'}}><div className="new-house-button">Add New Property</div></Link>
+                    <Link to ='/wizard'><div className="new-house-button">Add New Property</div></Link>
                 </div>
             </div>
         )
